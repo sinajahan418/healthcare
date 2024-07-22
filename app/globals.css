@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body::-webkit-scrollbar{
-  display: none;
-}
-
 /* ========================================== TAILWIND STYLES */
 @layer base {
   /* Remove scrollbar */
@@ -333,13 +329,6 @@ body::-webkit-scrollbar{
 
 .react-datepicker__time-container {
   border-left: 1px solid #363a3d !important;
-}
-input{
-  background-color:  transparent;
-}
-input:focus{
-  outline: none;
-
 }
 
 .react-datepicker__time-list-item {
